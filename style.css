@@ -9,10 +9,12 @@ body{
 
 /*barra do topo*/
 #topo {
-    padding-left: 10px;
+   
     height: 50px;
     background-color: rgb(36, 34, 34);
-    border: blue solid 1px;
+    border-bottom: 0.05px transparent solid;
+    border-image: linear-gradient(to right,rgb(255, 255, 255), rgb(0, 0, 0));
+    border-image-slice: 1;
 }
 
 /*título*/
@@ -20,7 +22,36 @@ body{
     color: rgb(255, 255, 255);
     display: inline;
     position: absolute;
-    top:16px;
-    font-size: 40px;
-     border: red 1px solid
+    top:0.5px;
+    font-size: 45px;
+    font-family: 'PT Sans', sans-serif;
+    padding-left: 10px;
+   
 }
+
+#qsomos p1{
+    display: inline-block;
+    border-bottom: transparent solid 1px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    align-items: center;
+    position: absolute;
+    top:70px;
+    left:45% ;
+    border-image: linear-gradient(to right,rgb(255, 255, 255),  rgb(36, 34, 34));
+    border-image-slice: 1;
+}
+#qsomos p2{
+   color:white;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+/*
+border {
+    width: 400px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, green, lightgreen);
+    border-image-slice: 1;
+    padding: 25px;
+    rgba(44, 43, 43, 0.2)
+}
+*/
