@@ -23,7 +23,7 @@ body{
     display: inline;
     position: absolute;
     top:0.5px;
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'PT Sans', sans-serif;
     padding-left: 10px;
    
@@ -41,10 +41,18 @@ body{
     border-image: linear-gradient(to right,rgb(255, 255, 255),  rgb(36, 34, 34));
     border-image-slice: 1;
 }
+
+/*apagar*/
 #qsomos p2{
    color:white;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   position: absolute;
+   top:90px;
+   left:40%;
 }
+
+
+
 /*
 border {
     width: 400px;
